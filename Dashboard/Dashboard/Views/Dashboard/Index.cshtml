@@ -1,0 +1,200 @@
+﻿@*
+    This is the example main content of the AdminLTE demo and represents a good smattering of AdminLTE functionality in a cshtml
+    TODO: Delete this file when you're ready to start building your app
+*@
+
+@{
+    // TODO: Consider setting Layout set automatially in _ViewStart.cshtml
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<!-- Info boxes -->
+<div class="row">
+    <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="info-box">
+            <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Stationer Online</span>
+                <span class="info-box-number">56</span>
+            </div><!-- /.info-box-content -->
+        </div><!-- /.info-box -->
+    </div><!-- /.col -->
+    <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="info-box">
+            <span class="info-box-icon bg-yellow"><i class="fa fa-exclamation-triangle"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Vejarbejde</span>
+                <span class="info-box-number">2</span>
+            </div><!-- /.info-box-content -->
+        </div><!-- /.info-box -->
+    </div><!-- /.col -->
+    <!-- fix for small devices only -->
+    <div class="clearfix visible-sm-block"></div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="info-box">
+            <span class="info-box-icon bg-green"><i class="fa fa-car"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Trafiksituation</span>
+                <span class="info-box-number">Tæt trafik</span>
+            </div><!-- /.info-box-content -->
+        </div><!-- /.info-box -->
+    </div><!-- /.col -->
+    <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="info-box">
+            <span class="info-box-icon bg-red"><i class="fa fa-heartbeat"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Antal dage uden uheld</span>
+                <span class="info-box-number">120</span>
+            </div><!-- /.info-box-content -->
+        </div><!-- /.info-box -->
+    </div><!-- /.col -->
+</div><!-- /.row -->
+
+<div class="section">
+    <div data-arrange="lt-grid"
+         class="lt-container
+         lt-xs-h-12
+         lt-sm-h-12
+         lt-md-h-8
+         lt-lg-h-6"
+         id="grid-container">
+
+         <!--Small Module-->
+        <div draggable="true"
+             class="lt
+            lt-xs-x-0
+            lt-xs-y-0
+            lt-xs-w-1
+            lt-xs-h-1
+            lt-sm-x-0
+            lt-sm-y-0
+            lt-sm-w-1
+            lt-sm-h-1
+            lt-md-x-0
+            lt-md-y-0
+            lt-md-w-1
+            lt-md-h-1
+            lt-lg-x-0
+            lt-lg-y-1
+            lt-lg-w-1
+            lt-lg-h-1">
+            <div class="lt-body note box box-warning">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Small Module</h3>
+                    <div class="box-tools pull-right">
+                        <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div><!--/.box tools-->
+                </div><!--"/.box header-->
+                <div class="box-body">
+                    <h1>Hello World</h1>
+                </div><!--/.box body-->
+            </div><!--/.box-->
+        </div><!--/.small Module-->
+        <div draggable="true"
+             class="lt
+            lt-xs-x-0
+            lt-xs-y-0
+            lt-xs-w-1
+            lt-xs-h-1
+            lt-sm-x-0
+            lt-sm-y-0
+            lt-sm-w-1
+            lt-sm-h-1
+            lt-md-x-0
+            lt-md-y-0
+            lt-md-w-1
+            lt-md-h-1
+            lt-lg-x-0
+            lt-lg-y-1
+            lt-lg-w-1
+            lt-lg-h-1">
+            <div class="lt-body note box box-warning">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Small Module</h3>
+                    <div class="box-tools pull-right">
+                        <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div><!--/.box tools-->
+                </div><!--"/.box header-->
+                <div class="box-body">
+                    <h1>Hello World</h1>
+                </div><!--/.box body-->
+            </div><!--/.box-->
+        </div><!--/.small Module-->
+ 
+        <!--Medium Module-->
+        <div draggable="true"
+             class="lt
+            lt-xs-x-0
+            lt-xs-y-1
+            lt-xs-w-1
+            lt-xs-h-1
+            lt-sm-x-0
+            lt-sm-y-1
+            lt-sm-w-2
+            lt-sm-h-1
+            lt-md-x-1
+            lt-md-y-0
+            lt-md-w-2
+            lt-md-h-1
+            lt-lg-x-0
+            lt-lg-y-0
+            lt-lg-w-2
+            lt-lg-h-1">
+            <div class="lt-body note box box-danger">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Medium Module</h3>
+                    <div class="box-tools pull-right">
+                        <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div><!--/.box tools-->
+                </div><!--"/.box header-->
+                <div class="box-body">
+                    <h1>Hello World</h1>
+                </div><!--/.box body-->
+            </div><!--/.box-->
+        </div><!--/.medium Module-->
+
+        <!--Large Module-->
+        <div draggable="true"
+             class="lt
+            lt-xs-x-0
+            lt-xs-y-2
+            lt-xs-w-1
+            lt-xs-h-1
+            lt-sm-x-0
+            lt-sm-y-2
+            lt-sm-w-2
+            lt-sm-h-2
+            lt-md-x-0
+            lt-md-y-1
+            lt-md-w-2
+            lt-md-h-2
+            lt-lg-x-2
+            lt-lg-y-0
+            lt-lg-w-2
+            lt-lg-h-2">
+            <div class="lt-body note box box-default">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Large Module</h3>
+                    <div class="box-tools pull-right">
+                        <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div><!--/.box tools-->
+                </div><!--"/.box header-->
+                <div class="box-body">
+                    <h1>Hello World</h1>
+                </div><!--/.box body-->
+            </div><!--/.box-->
+        </div><!--/.large Module-->
+    </div><!--/.lt grid-->
+</div><!--/.row-->
+<!-- Main row -->
+<div class="row">
+</div><!-- /.row -->
+
+<div class='row'>
+</div><!-- /.row -->
+<div class="row">
+</div><!-- /.row -->
+
+@section scripts {
+
+}
